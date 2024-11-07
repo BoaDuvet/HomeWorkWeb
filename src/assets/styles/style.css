@@ -92,6 +92,7 @@ ul.breadcrumb li::after {
     background: linear-gradient(to right, rgb(76, 123, 247), rgb(154, 93, 230));
 }
 
-.pageFon {
-    background-image: url("../img/fon2.png");
+.form {
+    width: 300px;
+    background-image: url("../img/fon1.PNG");
 }
