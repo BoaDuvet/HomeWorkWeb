@@ -1,0 +1,97 @@
+@import "./global.css";
+@import "./fonts.css";
+@import "./utils.css";
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+.nav-bar{
+    background: linear-gradient(0deg,  rgb(59, 143, 150), transparent)
+}
+.breadcrumb{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+ul.breadcrumb li::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    transform: translateY(-20%) translateX(-20px);
+    border-radius: 50%;
+    border-right: 3px solid white;
+    box-shadow: 5px 0px 2px -2px black;
+}
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+  
+.fancy {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.normal {
+    font-size: 36px;
+    text-align: center;
+}
+
+.thin {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.enter {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4
+}
+
+.button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase
+}
+
+.submit {
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+    padding: 5px 20px 5px;
+    border: none;
+    line-height: 26px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(76, 123, 247), rgb(154, 93, 230));
+}
+
+.pageFon {
+    background-image: url("../img/fon2.png");
+}
