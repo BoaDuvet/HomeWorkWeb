@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b32;
+  display: flex;
+  position: fixed;
+  top:0;
+}
+nav {    
+  width: 80%;
+  height: 50px;
+  position: fixed;
+  left: 100px;
+  z-index: 1;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+body{
+  background-color: rgb(153, 204, 255);
+  color: #1b1b32;
+}
+.nav-link {
+    color: #f1be32;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Tahoma;
+}
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #1b1b32;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+.green_block{
+    position: relative;
+    position: fixed;
+    height: 50px;
+    width: 5%;
+    background-color: #f1be32;
+    z-index: 2;
+}
+#logo-img{
+    z-index: 3;  
+}
