@@ -2,6 +2,79 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.nav-bar{
-    background-color: blue;
-}
+  nav {
+    box-shadow: 1px 3px 3px rgba(199, 199, 199);
+    border-radius: 10px;
+    margin: 20px 10% 0 0;
+    height: 50px;
+    width: 80%;
+    position: fixed;
+    background-color: aqua;
+  }
+  nav > ul {
+    margin: 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+  }
+  nav > ul > li {
+    margin: auto 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+  #main-ref{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5%;
+  }
+  #last-ref{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5%;
+  }
+  .present-section{
+    height: 900px;
+    display: grid;
+    grid-template-rows: 1fr 25% 25% 2fr;
+  }
+  .present-text{
+    grid-row: 2 / 3;
+  }
+  .present-content{
+    grid-row: 3 / 4;
+  }
+
+  html {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding-left: 5%;
+  }
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: "";
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
