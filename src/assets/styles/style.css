@@ -33,20 +33,34 @@
     justify-content: flex-end;
     margin-left: 5%;
   }
-  .present-section{
+  .present-window{
     height: 900px;
     display: grid;
     grid-template-rows: 1fr 25% 25% 2fr;
   }
+  .present-section{
+    grid-row: 2 / 4;
+  }
   .present-text{
-    grid-row: 2 / 3;
+    width: 60%;
+    padding-right: 20%;
+    margin-bottom: 5%;
+  }
+  .present-text h1 {
+    margin-bottom: 10px;
+    line-height: 140%;
+  }
+  .present-text p {
+    line-height: 140%;
   }
   .present-content{
-    grid-row: 3 / 4;
+    width: 60%;
   }
-
-  html {
-    font-family: 'HelveticaNeueCyr', sans-serif;
+  p{
+    font-weight: 300 !important;
+  }
+  h1{
+    font-size:44px;
   }
   
   body {
