@@ -2,20 +2,115 @@
 @import "./fonts.css";
 @import "./utils.css";
 
+  footer{
+    position: fixed;
+    background-color: #101828;
+    width: 85vw;
+    height: 230px;
+    border-radius: 12px;
+    color: white;  
+    margin-top: 700px;  
+    top: 0;
+  }
+  footer h1{
+    text-align: center;
+    padding-top: 12px;
+    margin: 0;
+  }
+  footer h4{
+    text-align: center;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+  }
+  [id="otz1"]{
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+    right: 140px;
+  }
+  [id="otz2"]{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: -2;
+  }
+  [id="otz3"]{
+    position: absolute;
+    top: 0;
+    right: 80px;
+    z-index: -1;
+  }
+  [id="otz4"]{
+    position: absolute;
+    top: 0;
+    right: 415px;
+    z-index: -1;
+  }
+  [id="otz5"]{
+    position: absolute;
+    bottom: 32px;
+    right: 0;
+    z-index: -3;
+  }
+  [id="otz6"]{
+    position: absolute;
+    bottom: 32px;
+    right: 120px;
+    z-index: -3;
+  }
+  .nav-link-main{
+    color: #306FF5;
+    font-size: 22px;
+    font-family: 'Inter Bold';
+  }
+  .nav-link{
+    color:black;
+    font-size: 24;
+    font-family: 'Inter Medium';
+    display: block;
+  }
+  .nav-links{
+    margin: auto 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+  }
+  .nav-info{
+    color: #306FF5;
+    letter-spacing: 1px;
+  }
+  .nav-number{
+    color: #306FF5;
+    letter-spacing: 2px;
+    padding-right: 10px;
+  }
+  .numbers{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .mail{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
   nav {
     box-shadow: 1px 3px 3px rgba(199, 199, 199);
     border-radius: 12px;
     margin: 20px 10% 0 0;
-    height: 56px;
+    height: 64px;
     width: 80%;
     position: fixed;
     background-color: white;
-    padding-top: 6px;
+    padding-top: 8px;
+    z-index: 10;
   }
   nav > ul {
     margin: 0 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-inline-start: 0px;
   }
   nav > ul > li {
@@ -116,18 +211,17 @@
   }
   .present-text p {
     font-size: 17px;
-    font-family: 'Inter Medium';
     line-height: 140%;
   }
   p{
-    font-weight: 300 !important;
+    font-family: 'Inter Medium';
   }
   h1{
     font-size:42px;
   }  
   body {
     margin: 0;
-    padding-left: 5%;
+    padding-left: 7%;
     background-color: #F2F4F7;
   }
   article, aside, details, figcaption, figure,
