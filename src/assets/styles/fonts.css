@@ -13,3 +13,8 @@
     src: url('../../../static/Inter_18pt-Light.ttf');
     font-weight: 400;
   }
+  @font-face {
+    font-family: 'Inter Light';
+    src: url('../../../static/Inter_18pt-Light.ttf');
+    font-weight: 300;
+  }
