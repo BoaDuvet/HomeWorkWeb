@@ -3,7 +3,7 @@
 @import "./utils.css";
 
   footer{
-    position: fixed;
+    
     background-color: #101828;
     width: 85vw;
     height: 230px;
@@ -60,38 +60,59 @@
   [id="otz1"]{
     position: absolute;
     z-index: -1;
-    top: 5px;
-    right: 140px;
+    top: 100px;
+    right: 295px;
+    transform: rotate(-12deg);
+    border-radius: 24px;
+    box-shadow: 0px 0px 80px rgb(188, 188, 188);
   }
   [id="otz2"]{
     position: absolute;
-    top: 30px;
-    right: 0;
+    top: 27px;
+    right: -7px;
     z-index: -2;
+    transform: rotate(-12deg);
+    border-radius: 24px;
   }
   [id="otz3"]{
     position: absolute;
-    top: 0;
-    right: 80px;
-    z-index: -1;
+    top: -611px;
+    right: 130px;
+    z-index: -3;
+    transform: rotate(-12deg);
+    border-radius: 24px;
   }
   [id="otz4"]{
     position: absolute;
-    top: 0;
-    right: 415px;
-    z-index: -1;
+    top: -545px;
+    right: 460px;
+    z-index: -3;
+    transform: rotate(-12deg);
+    border-radius: 24px;
   }
   [id="otz5"]{
     position: absolute;
-    bottom: 32px;
-    right: 0;
+    bottom: -410px;
+    right: -140px;
     z-index: -3;
+    transform: rotate(-12deg);
+    border-radius: 24px;
   }
   [id="otz6"]{
     position: absolute;
-    bottom: 32px;
-    right: 120px;
+    bottom: -505px;
+    right: 180px;
     z-index: -3;
+    transform: rotate(-12deg);
+    border-radius: 24px;
+  }
+  .gallery{
+    position: absolute;
+    right: 0;
+    bottom: 14px;
+    height: 800px;
+    width: 600px;
+    overflow: hidden;
   }
   .nav-link-main{
     color: #306FF5;
