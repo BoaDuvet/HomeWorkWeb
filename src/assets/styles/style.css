@@ -3,7 +3,7 @@
 @import "./utils.css";
 
   footer{
-    
+    position: fixed;
     background-color: #101828;
     width: 85vw;
     height: 230px;
